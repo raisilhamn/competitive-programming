@@ -1,20 +1,12 @@
-#include <bits/stdc++.h>
-
-#define fastio                        \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL)
-
-#define endl "\n"
-
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
-    fastio;
     string str;
     cin >> str;
     str[0] = toupper(str[0]);
     cout << str << endl;
-    return 0;
     return 0;
 }
