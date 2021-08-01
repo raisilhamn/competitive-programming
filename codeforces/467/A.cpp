@@ -9,12 +9,12 @@ int main(int argc, char const *argv[])
     for (size_t i = 0; i < n; i++)
     {
         cin >> people >> room;
-        if ((room - people) >= 2)
+        if ((room - people) >= 2 )
         {
             move++;
         }
     }
     cout << move << endl;
-
+    
     return 0;
 }
