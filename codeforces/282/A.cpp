@@ -2,28 +2,28 @@
 
 using namespace std;
 
+string b;
+int a, c(0);
+
 int main()
 {
-
-    string x;
-    int a, c(0);
     cin >> a;
     for (int i = 0; i < a; i++)
     {
-        cin >> x;
-        if (x[0] == '+')
+        cin >> b;
+        if (b[0] == '+')
         {
             c++;
         }
-        else if (x[0] == '-')
+        else if (b[0] == '-')
         {
             c--;
         }
-        else if (x[0] == 'X' && x[1] == '-')
+        else if (b[0] == 'X' && b[1] == '-')
         {
             c--;
         }
-        else if (x[0] == 'X' && x[1] == '+')
+        else if (b[0] == 'X' && b[1] == '+')
         {
             c++;
         }
