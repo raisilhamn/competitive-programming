@@ -1,16 +1,8 @@
-#include <bits/stdc++.h>
-
-#define fastio                        \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL)
-
-#define endl "\n"
-
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    fastio;
     string str;
     int jumlah, pass = 1;
     cin >> str;
@@ -38,5 +30,4 @@ int main()
     {
         cout << "CHAT WITH HER!" << endl;
     }
-    return 0;
 }
