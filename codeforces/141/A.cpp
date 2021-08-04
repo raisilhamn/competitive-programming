@@ -9,9 +9,7 @@
 
 /* notes
 
-Amusing Joke
-implementation, sortings, strings 
-std:: sort
+
 */
 
 using namespace std;
@@ -19,7 +17,6 @@ using namespace std;
 int main()
 {
     fastio;
-    // * Cara 1
     string a, b, c, s;
     cin >> a >> b >> c;
 
@@ -33,7 +30,5 @@ int main()
     else
         cout << "NO" << endl;
 
-    return 0;    
-    
-
+    return 0;
 }
