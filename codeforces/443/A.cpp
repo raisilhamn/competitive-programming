@@ -8,9 +8,8 @@
 #define MOD 1000000007
 
 /*
-    isalpha(type n) ;
-    Check if character is alphabetic
-    https://www.cplusplus.com/reference/cctype/isalpha/
+
+   notes
 
 */
 
