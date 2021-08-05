@@ -19,7 +19,7 @@ int main()
 {
     fastio;
     int t, n;
-    int aa[6];
+    int aa[100000];
     cin >> t;
     while (t--)
     {
@@ -47,12 +47,12 @@ int main()
         {
             aa[d++] = n;
         }
+        
         vector<int> va;
         for (int i = 0; i < d; i++)
         {
             va.push_back(aa[i]);
         }
-
         cout << va.size() << endl;
         for (int i = 0; i < va.size(); i++)
         {
