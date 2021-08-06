@@ -34,16 +34,15 @@ int main()
         }
         // if not even 
         cout << "YES" << endl;
-        for (int i = 1; i <= n; i++) // Pre-increment, ditambah dulu baru 
+        for (int i = 1; i <= n; ++i) // Pre-increment
         {
             cout << i * 2 << " ";
         }
-        for (int i = 1; i < n; i++) // Pre-increment
+        for (int i = 1; i < n; ++i) // Pre-increment
         {
             cout << i * 2 - 1 << " ";
         }
-        cout << 3 * n - 1 << endl; // akhir dari deret, sedikit modifikasi
-        // 
+        cout << 3 * n - 1 << endl;
     }
 
     return 0;
