@@ -8,9 +8,7 @@
 #define MOD 1000000007
 
 /* notes
-We can add or subtract 10 until the difference between a and b becomes less than 10. 
-And if it is not 0 after all such moves, we need one additional move.
-editorial : https://codeforces.com/blog/entry/82284
+
 
 */
 
@@ -21,8 +19,8 @@ int main()
     fastio;
     int t;
     cin >> t;
-
-    while (t--)
+    
+    while(t--)
     {
         int a, b;
         cin >> a >> b;
