@@ -35,7 +35,7 @@ int main()
     
     while(t--)
     {
-       int n, odd(0), even(0);
+       int n, a(0), b(0);
        cin >> n;
        vector<int> arr(n);
        for (auto &it : arr){
@@ -45,27 +45,23 @@ int main()
        {
            if (arr[i] % 2 != i % 2)
            {
-               if (i & 1)
-                   odd++;
+               if (i % 2 == 0)
+               {
+                   a++;
+               }
                else
-                   even++;
-            //    if (i % 2 == 0)
-            //    {
-            //        a++;
-            //    }
-            //    else
-            //    {
-            //        b++;
-            //    }
+               {
+                   b++;
+               }
            }
        }
-       if (odd != even)
+       if (a != b)
        {
            cout << -1 << endl;
        }
        else
        {
-           cout << even << endl;
+           cout << a << endl;
        }
     }
     return 0;
