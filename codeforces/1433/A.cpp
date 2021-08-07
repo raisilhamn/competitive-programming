@@ -37,12 +37,6 @@ int main()
         }
 
         cout << ((a - 1) * 10) + d << endl;
-
-        // string num;
-        // cin >> num;
-        // int dig = num[0] - '0' - 1;
-        // int len = num.size();
-        // cout << dig * 10 + len * (len + 1) / 2 << endl;
     }
     return 0;
 }
