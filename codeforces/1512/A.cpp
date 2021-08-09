@@ -27,22 +27,18 @@ int main()
     {
         int n;
         cin >> n;
-        vector<int> v(n); // vektor 1 
+        vector<int> v(n);
         for (int &e : v)
         {
             cin >> e;
         }
-
-        vector<int> a = v; // vektor 2 
-        sort(a.begin(), a.end()); //yang berbeda akan ada di posisi paling depan
-        // atau paling belakang
-        // yang a disort
+        vector<int> a = v;
+        sort(a.begin(), a.end());
         for (int i = 0; i < n; i++)
         {
             if (v[i] != a[1])
             {
                 cout << i + 1 << "\n";
-                break;
             }
         }
     }
